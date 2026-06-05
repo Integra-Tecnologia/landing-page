@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* Aquí defines los colores de tu proyecto */
+  --color-primary: #ee8600; /* naranja bea */
+  --color-secondary: #1a60a7; /*  azul  */
+  --color-fondo-oscuro: #D6D6D6
+  --color-fondo-claro: #F3F3F3;
+  --color-texto: #333333;
+  --color-cafe: #A89379;
+}
