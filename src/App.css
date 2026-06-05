@@ -2,8 +2,10 @@
 
 @theme {
   /* Aquí defines los colores de tu proyecto */
-  --color-primary: #ee8600; /* naranja bea */
-  --color-secondary: #1a60a7; /*  azul  */
+  --color-primary: #fe630c; /* naranja  */
+  --color-primary-hover: #DF5301; /* naranja oscuro */
+  --color-secondary: #005cb9; /*  azul  */
+  --color-secondary-hover: #00478F; /* azul oscuro */
   --color-fondo-oscuro: #D6D6D6
   --color-fondo-claro: #F3F3F3;
   --color-texto: #333333;

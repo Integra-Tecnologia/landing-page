@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
+import LogoIntegra from '../assets/PNG INTEGRA_LOGO MULTI.png';
 
 const linkClassName = ({ isActive }: { isActive: boolean }) =>
     `block py-2 transition-colors hover:text-gray-900 ${isActive ? "text-primary" : ""}`;
@@ -22,16 +23,14 @@ export default function Navbar() {
 
     return (
         <nav
-            className={`sticky top-0 z-50 border-b border-black/5 shadow-sm transition-opacity duration-300 ${
-                isTop ? "bg-transparent" : "bg-fondo-oscuro/95 backdrop-blur"
-            }`}
-        >
-            <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-                <NavLink to="/" className="shrink-0 hover:text-gray-900">
+            className={`sticky top-0 z-50 border-b border-black/5 shadow-sm transition-opacity duration-300 
+                ${isTop ? "bg-transparent" : "bg-fondo-oscuro/95 backdrop-blur"}`} >
+            <div className="mx-auto flex max-w-[90%] items-center justify-between px-4 py-4 sm:px-2 lg:px-8">
+                <NavLink to="/" className=" hover:text-gray-900">
                     <img
-                        src="src\assets\navbar-logo.png"
-                        alt="Logo de Bea"
-                        className="h-16 w-auto sm:h-20"
+                        src={LogoIntegra}
+                        alt="Logo de integra"
+                        className=" -my-15 w-auto h-40 sm:h-60"
                     />
                 </NavLink>
 
