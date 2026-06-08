@@ -15,7 +15,7 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col bg-fondo-claro text-texto">
         <Navbar />
 
         <main className="flex-1 ">
@@ -26,6 +26,9 @@ function App() {
             <Route path="/casosExito" element={<CasosExito />} />
             <Route path="/contacto" element={<Contacto />} />
           </Routes>
+
+
+
         </main>
 
         <Footer />
