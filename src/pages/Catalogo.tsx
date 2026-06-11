@@ -1,15 +1,30 @@
 import  { useState, useMemo } from 'react';
 import ProductoCard from '../components/CardCatalogo';
 import { FiGrid } from 'react-icons/fi';
-// Importamos tu JSON directamente (asegúrate de que la ruta sea correcta)
-import datosCatalogo from '../data/catalogo.json';
+import datosCatalogoRaw from '../data/catalogo.json';
+
+
+  interface Producto {
+  id: number;
+  nombre: string;
+  modelo: string;
+  marca: string;
+  categoria: string;
+  estado: string;
+  descripcion: string;
+  imagenes: string[];
+}
+
+
+const datosCatalogo = datosCatalogoRaw as Producto[];
 
 const Catalogo = () => {
   const [categoriaActiva, setCategoriaActiva] = useState<string>('Todas');
 
+
   // 1. Extraemos las categorías únicas del JSON automáticamente
   const categoriasUnicas = useMemo(() => {
-    const categorias = datosCatalogo.map(prod => prod.categoria);
+    const categorias = datosCatalogo.map(producto => producto.categoria);
     // Usamos Set para quitar duplicados y le agregamos 'Todas' al principio
     return ['Todas', ...Array.from(new Set(categorias))];
   }, []);
