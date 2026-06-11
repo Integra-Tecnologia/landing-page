@@ -1,7 +1,7 @@
 import  { useState, useMemo } from 'react';
 import ProductoCard from '../components/CardCatalogo';
 import { FiGrid } from 'react-icons/fi';
-import datosCatalogoRaw from '../data/catalogo.json';
+import datosCatalogoRaw from '../datos/productos-catalogo.json';
 
 
   interface Producto {
