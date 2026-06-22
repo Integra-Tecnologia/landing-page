@@ -8,7 +8,7 @@
     "estado": "Disponible",
     "descripcion": "MDVR tipo DashCam con Inteligencia Artificial integrada. Doble cámara integrada (5MP ADAS + 1080p DSM). Soporta 4G, GPS y WiFi. Graba hasta 4 canales con codificación H.264/H.265. Compatible con 2 MicroSD de hasta 256GB. Funciones ADAS y DSC para detección de distracción, uso de celular, fatiga y más. Ideal para transporte de pasajeros y flotillas privadas. Compatible con plataforma CEIBA2.",
     "imagenes": [
-      "/img-catalogo/DVRpequeno1.webp"
+      "/img-catalogo/ADPLUS 2.0-V1.1.webp"
     ]
   },
   {
@@ -20,7 +20,7 @@
     "estado": "Disponible",
     "descripcion": "MDVR tipo DashCam compacto con doble cámara integrada (carretera + conductor). Soporta 4G, GPS y WiFi para monitoreo en tiempo real. Graba hasta 2 canales con H.264/H.265. Soporta 2 MicroSD y hasta 2 entradas de alarma. Ideal para vehículos de transporte de pasajeros o red privada. Compatible con plataforma CEIBA2.",
     "imagenes": [
-      "/img-catalogo/DVRpequeno1.webp"
+      "/img-catalogo/C6 LITE 2.0.webp"
     ]
   },
   {
@@ -32,7 +32,7 @@
     "estado": "Disponible",
     "descripcion": "DVR móvil AHD híbrido de 4 canales con módulo GPS, 3G/4G y WiFi integrados. Soporta tarjeta SD y disco duro de 2.5 pulgadas. Conectores DIN de aviación. Compatible con CEIBA2 y cámaras contadoras de personas MP3M y MP3S. Incluye G-Sensor.",
     "imagenes": [
-      "/img-catalogo/DVRpequeno1.webp"
+      "/img-catalogo/M1N2.0-GW4.webp"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "estado": "Disponible",
     "descripcion": "DVR móvil AHD de 4 canales con 4 chips, resolución 1080p y compresión H.265. Incluye módulo GPS y módulo 3G/4G integrado. Diseñado para soluciones de videovigilancia en vehículos de transporte pesado y flotillas.",
     "imagenes": [
-      "/img-catalogo/DVRpequeno1.webp"
+      "/img-catalogo/MX3NPRO.webp"
     ]
   },
   {
@@ -56,7 +56,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara móvil domo AHD para interiores de vehículos. Conector DIN de aviación 4 pines. Diseñada para instalación en autobuses, camiones y unidades de transporte público. Compatible con DVRs móviles AHD.",
     "imagenes": [
-      "https://tecnosinergia.com/images/productos/MC303V2.jpg"
+      "/img-catalogo/MC303V2.webp"
     ]
   },
   {
@@ -68,7 +68,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara móvil domo Eyeball AHD de 1MP para videovigilancia interior en vehículos. Lente 2.8mm, protección IP54, 5m de IR y micrófono integrado. Conector DIN de aviación 4 pines. Función AWB y anti-vibración. Compatible exclusivamente con DVRs móviles AHD.",
     "imagenes": [
-      "https://merivatechnology.com/images/MC303HD.jpg"
+      "/img-catalogo/MC303HD.webp"
     ]
   },
   {
@@ -80,7 +80,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara móvil domo AHD de 2MP para interiores de vehículos. Lente 2.8mm, protección IP54, 10m de IR y micrófono integrado. Conector DIN de aviación 4 pines. Compatible con DVRs móviles que soporten 1080p.",
     "imagenes": [
-      "https://tecnosinergia.com/images/productos/MC320HD.jpg"
+      "/img-catalogo/MC320HD.webp"
     ]
   },
   {
@@ -92,7 +92,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara móvil domo AHD antivandalica de 2MP para exteriores de vehículos. Sensor Sony Starlight para excelente desempeño en baja iluminación. Lente 2.8mm, protección IP66, 10m de IR, sin audio. Conector DIN de aviación 4 pines. Compatible con MDVRs que soporten 1080p.",
     "imagenes": [
-      "https://tecnosinergia.com/images/productos/MC4000HD.jpg"
+      "/img-catalogo/MC4000HD.webp"
     ]
   },
   {
@@ -104,7 +104,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara móvil domo AHD de 2MP con audio integrado para interiores y exteriores. Conector DIN de aviación 4 pines. Compatible con DVRs móviles que soporten 1080p.",
     "imagenes": [
-      "https://tecnosinergia.com/images/productos/MC4002HD.jpg"
+      "/img-catalogo/MC4002HD.webp"
     ]
   },
   {
@@ -116,7 +116,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara AHD auxiliar para conteo de pasajeros. Se usa en combinación con el contador MP3M. Transmite imágenes de video al MP3M, cuyo algoritmo de IA determina con precisión la dirección de movimiento de los pasajeros (subida/bajada). Ideal para autobuses de pasajeros.",
     "imagenes": [
-      "https://tecnosinergia.com/images/productos/MP3S.jpg"
+      "/img-catalogo/MP3S.webp"
     ]
   },
   {
@@ -128,7 +128,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara IP contadora de pasajeros con Inteligencia Artificial para vehículos de transporte. Resolución 2MP (1920x1080) a 30fps. Soporta WDR. Opera 24x7. Algoritmo de aprendizaje profundo para conteo preciso de ascenso y descenso. Compatible con series MM1N, MX1N y MX3N.",
     "imagenes": [
-      "https://tecnosinergia.com/images/productos/MP3M.jpg"
+      "/img-catalogo/MP3M.webp"
     ]
   },
   {
@@ -140,7 +140,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara adhesiva AHD de 1.3MP para interiores de vehículos. Lente 2.8mm, protección IP54. Conector DIN 4 pines. Diseño discreto de montaje adhesivo. Alimentación 12 VCD.",
     "imagenes": [
-      "https://tecnosinergia.com/images/productos/MCA20S.jpg"
+      "/img-catalogo/MCA20S.webp"
     ]
   },
   {
@@ -152,7 +152,7 @@
     "estado": "Disponible",
     "descripcion": "Cámara de Inteligencia Artificial para sistemas ADAS (Advanced Driver Assistance System). Resolución 1080p, lente 8mm, sensor CMOS 1/2.8\". Funciones de advertencia de colisión frontal (FCW) y advertencia de salida de carril (LDW). Diseño compacto para adherirse al parabrisas. Excelente desempeño en baja iluminación. Compatible con series MM1N y MX1N.",
     "imagenes": [
-      "https://merivatechnology.com/images/MC-ADAS.jpg"
+      "/img-catalogo/MC-ADAS.webp"
     ]
   },
   {
@@ -164,7 +164,7 @@
     "estado": "Disponible",
     "descripcion": "Rastreador GPS de segmento inteligente para gestión de flotillas. Soporta lectura de datos CAN de vehículos pesados (HCV) y ligeros (LCV), así como OBDII. Carcasa con protección IP54 e IP68. Conectividad BLE y CustomCAN. Ideal para monitoreo avanzado de vehículos con análisis de datos del motor.",
     "imagenes": [
-      "https://ruptela.com/images/smart5.jpg"
+      "/img-catalogo/Smart5.webp"
     ]
   },
   {
@@ -176,7 +176,7 @@
     "estado": "Disponible",
     "descripcion": "Rastreador GPS compacto basado en GNSS para gestión esencial de flotillas. Diseño delgado con carcasa IP54. Conectividad BLE 5.0. Ideal para tareas básicas de monitoreo de posición, velocidad y rutas de vehículos ligeros y pesados.",
     "imagenes": [
-      "https://ruptela.com/images/eco5-lite.jpg"
+      "/img-catalogo/Eco5 Lite.webp"
     ]
   },
   {
@@ -188,7 +188,7 @@
     "estado": "Disponible",
     "descripcion": "Rastreador GPS avanzado para vehículos pesados (HCV) y ligeros (LCV). Lectura de datos CAN, monitoreo de remolque y refrigerado, solución de tacógrafo remoto. Conectividad LTE CAT1. Compatible con Wialon y otras plataformas de rastreo. Diseñado para flotillas de transporte pesado.",
     "imagenes": [
-      "https://ruptela.com/images/hcv5.jpg"
+      "/img-catalogo/HCV5.webp"
     ]
   },
   {
@@ -200,7 +200,7 @@
     "estado": "Disponible",
     "descripcion": "Rastreador GPS 4G LTE CAT1 bis para vehículos pesados. Lectura de datos CAN mediante protocolos FMS, J1708 y J1939. Precisión GNSS de hasta 1.5 metros. Protección contra interferencias (Jammer) con activación automática de paro de motor. Audio bidireccional, sensores Bluetooth, RFID. Diseño compacto con nano SIM.",
     "imagenes": [
-      "https://ruptela.com/images/pro5-lite.jpg"
+      "/img-catalogo/Pro5 Lite.webp"
     ]
   },
   {
@@ -212,7 +212,7 @@
     "estado": "Disponible",
     "descripcion": "Rastreador GPS avanzado de segmento Pro para vehículos pesados. Lectura de datos CAN de vehículos HCV, monitoreo de remolque y refrigerado, solución para maquinaria especializada. Ideal para flotillas de largo recorrido que requieren telemetría avanzada.",
     "imagenes": [
-      "https://ruptela.com/images/pro5s.jpg"
+      "/img-catalogo/Pro5S.webp"
     ]
   },
   {
@@ -224,7 +224,7 @@
     "estado": "Disponible",
     "descripcion": "Torniquete de trípode bidireccional de medio cuerpo para control de acceso peatonal en entornos de alta demanda. Fabricado en acero inoxidable SUS304. Vida útil de hasta 6 millones de ciclos. Flujo de 25 a 35 personas por minuto. Indicador LED. Protección para exteriores protegidos (semicubiertos). Compatible universalmente con cualquier sistema de control de acceso: RFID, biometría, QR, etc.",
     "imagenes": [
-      "https://multiseg.com.mx/images/WJAT215.jpg"
+      "/img-catalogo/WEJOIN WJAT215.webp"
     ]
   },
   {
@@ -236,7 +236,7 @@
     "estado": "Disponible",
     "descripcion": "Torniquete bidireccional Dahua de acceso peatonal. Fabricado en acero inoxidable. Activación por contacto seco. Voltaje de alimentación 110-240 VAC. Indicadores de luz y sonido ajustables. Compatible con cualquier sistema de control de acceso. MCBF de 1 millón de ciclos. Uso interior.",
     "imagenes": [
-      "https://dahua.com/images/DHI-ASI6213S.jpg"
+      "/img-catalogo/DAHUA ASI6213SGG100.webp"
     ]
   },
   {
@@ -248,7 +248,7 @@
     "estado": "Disponible",
     "descripcion": "Control de acceso exterior con reconocimiento facial avanzado y pantalla táctil de 4.3\". Soporta hasta 6,000 usuarios (rostros + contraseñas), 10,000 tarjetas ID 125 KHz y 300,000 registros. Cámara de doble lente gran angular 2MP con IR y DWDR. Precisión de reconocimiento facial del 99.9% en 0.2 segundos. Certificación IP65 para exteriores. Soporta QR de visita y timbre. Comunicación TCP/IP.",
     "imagenes": [
-      "https://dahua.com/images/DHI-ASI6213S-D.jpg"
+      "/img-catalogo/DAHUA ASI6213SGG100.webp"
     ]
   },
   {
@@ -260,7 +260,7 @@
     "estado": "Disponible",
     "descripcion": "Bracket de aluminio para montaje en pared o poste, compatible con los controles de acceso Dahua ASI6213J-MW, ASI6214J-MFW, ASI7213Y-V3, ASI7214Y-V3, ASI7213X y ASI7214X. Complemento ideal para instalaciones de torniquetes Dahua.",
     "imagenes": [
-      "https://dahua.com/images/ASF053-ZJ.jpg"
+      "/img-catalogo/DAHUA ASI6213SGG100.webp"
     ]
   }
 ]
