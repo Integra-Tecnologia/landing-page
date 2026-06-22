@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiTag, FiCheckCircle, FiX, FiZoomIn } from 'react-icons/fi';
+import { FiTag, FiCheckCircle, FiX, FiZoomIn, FiArrowRight } from 'react-icons/fi';
 
 interface Producto {
   id: number;
@@ -9,6 +9,7 @@ interface Producto {
   categoria: string;
   estado: string;
   descripcion: string;
+  descripcion_corta: string;
   imagenes: string[];
 }
 
@@ -71,36 +72,35 @@ const CardCatalogo: React.FC<CardCatalogoProps> = ({ producto }) => {
             <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
               {producto.marca}
             </span>
-            <span className="text-xs font-medium text-orange-500 bg-orange-50 px-2 py-1 rounded-md flex items-center gap-1">
+            <span className="text-xs font-medium text-primary bg-orange-50 px-2 py-1 rounded-md flex items-center gap-1">
               <FiTag className="w-3 h-3" />
               {producto.categoria}
             </span>
           </div>
 
-          <h3 className="text-lg font-extrabold text-slate-800 leading-tight mb-1">
+          <h3 className="text-lg font-extrabold text-slate-800 leading-tight my-2.5 line-clamp-2 min-h-[2.8rem]">
             {producto.nombre}
           </h3>
           <p className="text-sm text-gray-500 font-mono mb-4">
             Mod: {producto.modelo}
           </p>
 
-          <p className="text-sm text-gray-600 leading-relaxed line-clamp-3 mb-2">
-            {producto.descripcion}
+          <p className="text-sm text-gray-600 leading-relaxed line-clamp-4 mb-4">
+            {producto.descripcion_corta}
           </p>
           
-          {/* BOTÓN -> AHORA ESTE ES EL ÚNICO QUE ABRE EL MODAL DE DETALLES */}
-          <button 
-            onClick={() => setModalAbierto(true)}
-            className="text-orange-500 text-sm font-bold self-start mb-6 hover:underline"
-          >
-            Ver más detalles
-          </button>
-
-          <div className="mt-auto">
-            <button className="w-full py-2.5 bg-slate-50 text-slate-700 font-bold rounded-lg border border-gray-200 transition-colors hover:bg-orange-500 hover:text-white hover:border-orange-500">
-              Me interesa
+          <div className="mt-auto flex flex-col gap-4">
+            <button 
+              onClick={() => setModalAbierto(true)}
+              className="flex flex-col text-primary text-lg font-bold self-start hover:underline"
+            >
+             Ver más detalles
             </button>
-          </div>
+
+            {/* <button className="w-full py-2.5 bg-slate-50 text-slate-700 font-bold rounded-lg border border-gray-200 transition-colors hover:bg-primary hover:text-white hover:border-primary">
+              Me interesa
+            </button>*/}
+          </div> 
           
         </div>
       </div>
@@ -143,7 +143,7 @@ const CardCatalogo: React.FC<CardCatalogoProps> = ({ producto }) => {
             <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-10 flex flex-col overflow-y-auto max-h-[60vh] md:max-h-none">
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">{producto.marca}</span>
-                <span className="text-xs font-medium text-orange-500 bg-orange-50 px-2 py-1 rounded-md flex items-center gap-1">
+                <span className="text-xs font-medium text-primary bg-orange-50 px-2 py-1 rounded-md flex items-center gap-1">
                   <FiTag className="w-3 h-3" />
                   {producto.categoria}
                 </span>
@@ -154,11 +154,11 @@ const CardCatalogo: React.FC<CardCatalogoProps> = ({ producto }) => {
               </p>
               <h4 className="text-sm font-bold text-slate-800 uppercase tracking-wider mb-3">Descripción del producto</h4>
               <p className="text-gray-600 leading-relaxed whitespace-pre-line mb-8">{producto.descripcion}</p>
-              <div className="mt-auto pt-6">
-                <button className="w-full py-3.5 bg-orange-500 text-white font-bold rounded-xl shadow-lg shadow-orange-500/30 transition-all hover:bg-orange-600 hover:-translate-y-0.5 active:translate-y-0">
+              {/* <div className="mt-auto pt-6">
+                <button className="w-full py-3.5 bg-primary text-white font-bold rounded-xl shadow-lg shadow-primary/30 transition-all hover:bg-orange-600 hover:-translate-y-0.5 active:translate-y-0">
                   Me interesa este equipo
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -166,11 +166,11 @@ const CardCatalogo: React.FC<CardCatalogoProps> = ({ producto }) => {
 
       {/* ---------------- LA IMAGEN FULLSCREEN (LIGHTBOX NEGRO) ---------------- */}
       {imagenFullScreen && (
-        <div className="fixed inset-0 z-[200] flex items-center justify-center bg-black/95 backdrop-blur-md p-4 sm:p-8 animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-200 flex items-center justify-center bg-black/65 backdrop-blur-md p-4 sm:p-8 animate-in fade-in duration-200">
           
           <button 
             onClick={() => setImagenFullScreen(false)}
-            className="absolute top-6 right-6 z-10 p-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-colors"
+            className="absolute top-6 right-6 z-10 p-3  bg-white/10 hover:bg-white/20 text-white  rounded-full transition-colors "
           >
             <FiX className="w-8 h-8" />
           </button>

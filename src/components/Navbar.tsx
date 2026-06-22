@@ -119,7 +119,7 @@ export default function Navbar() {
                     <span className="text-2xl leading-none">{mobileOpen ? "✕" : "☰"}</span>
                 </button>
 
-                <ul className="hidden items-center gap-8 text-base font-medium md:flex lg:gap-12 lg:text-xl">
+                <ul className="hidden items-center whitespace-nowrap font-medium md:flex md:gap-4 md:text-sm lg:gap-8 lg:text-base xl:gap-12 xl:text-lg">
                     <li>
                         <NavLink 
                             to="/" 

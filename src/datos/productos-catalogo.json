@@ -6,6 +6,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "DVR Móvil / DashCam",
     "estado": "Disponible",
+    "descripcion_corta": "MDVR tipo DashCam con Inteligencia Artificial integrada (ADAS + DSM) y conectividad 4G/WiFi/GPS para flotillas.",
     "descripcion": "MDVR tipo DashCam con Inteligencia Artificial integrada. Doble cámara integrada (5MP ADAS + 1080p DSM). Soporta 4G, GPS y WiFi. Graba hasta 4 canales con codificación H.264/H.265. Compatible con 2 MicroSD de hasta 256GB. Funciones ADAS y DSC para detección de distracción, uso de celular, fatiga y más. Ideal para transporte de pasajeros y flotillas privadas. Compatible con plataforma CEIBA2.",
     "imagenes": [
       "/img-catalogo/ADPLUS 2.0-V1.1.webp"
@@ -18,6 +19,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "DVR Móvil / DashCam",
     "estado": "Disponible",
+    "descripcion_corta": "MDVR tipo DashCam compacto con doble cámara integrada y soporte 4G/GPS/WiFi para monitoreo en tiempo real.",
     "descripcion": "MDVR tipo DashCam compacto con doble cámara integrada (carretera + conductor). Soporta 4G, GPS y WiFi para monitoreo en tiempo real. Graba hasta 2 canales con H.264/H.265. Soporta 2 MicroSD y hasta 2 entradas de alarma. Ideal para vehículos de transporte de pasajeros o red privada. Compatible con plataforma CEIBA2.",
     "imagenes": [
       "/img-catalogo/C6 LITE 2.0.webp"
@@ -30,6 +32,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "DVR Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "DVR móvil AHD híbrido de 4 canales con conectividad 3G/4G, WiFi y GPS integrados. Compatible con plataformas de IA.",
     "descripcion": "DVR móvil AHD híbrido de 4 canales con módulo GPS, 3G/4G y WiFi integrados. Soporta tarjeta SD y disco duro de 2.5 pulgadas. Conectores DIN de aviación. Compatible con CEIBA2 y cámaras contadoras de personas MP3M y MP3S. Incluye G-Sensor.",
     "imagenes": [
       "/img-catalogo/M1N2.0-GW4.webp"
@@ -42,6 +45,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "DVR Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "DVR móvil AHD de 4 canales de resolución 1080p, ideal para soluciones de videovigilancia en vehículos de transporte pesado.",
     "descripcion": "DVR móvil AHD de 4 canales con 4 chips, resolución 1080p y compresión H.265. Incluye módulo GPS y módulo 3G/4G integrado. Diseñado para soluciones de videovigilancia en vehículos de transporte pesado y flotillas.",
     "imagenes": [
       "/img-catalogo/MX3NPRO.webp"
@@ -54,6 +58,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara móvil domo AHD con conector DIN 4 pines, ideal para instalación en autobuses y unidades de transporte público.",
     "descripcion": "Cámara móvil domo AHD para interiores de vehículos. Conector DIN de aviación 4 pines. Diseñada para instalación en autobuses, camiones y unidades de transporte público. Compatible con DVRs móviles AHD.",
     "imagenes": [
       "/img-catalogo/MC303V2.webp"
@@ -66,6 +71,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara móvil domo Eyeball AHD de 1MP para interiores, con micrófono integrado y protección IP54.",
     "descripcion": "Cámara móvil domo Eyeball AHD de 1MP para videovigilancia interior en vehículos. Lente 2.8mm, protección IP54, 5m de IR y micrófono integrado. Conector DIN de aviación 4 pines. Función AWB y anti-vibración. Compatible exclusivamente con DVRs móviles AHD.",
     "imagenes": [
       "/img-catalogo/MC303HD.webp"
@@ -78,6 +84,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara móvil domo AHD de 2MP (1080p) para interiores de vehículos, con protección IP54 e infrarrojos de 10m.",
     "descripcion": "Cámara móvil domo AHD de 2MP para interiores de vehículos. Lente 2.8mm, protección IP54, 10m de IR y micrófono integrado. Conector DIN de aviación 4 pines. Compatible con DVRs móviles que soporten 1080p.",
     "imagenes": [
       "/img-catalogo/MC320HD.webp"
@@ -90,6 +97,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara móvil domo antivandálica de 2MP para exteriores, con protección IP66 y sensor Sony Starlight.",
     "descripcion": "Cámara móvil domo AHD antivandalica de 2MP para exteriores de vehículos. Sensor Sony Starlight para excelente desempeño en baja iluminación. Lente 2.8mm, protección IP66, 10m de IR, sin audio. Conector DIN de aviación 4 pines. Compatible con MDVRs que soporten 1080p.",
     "imagenes": [
       "/img-catalogo/MC4000HD.webp"
@@ -102,6 +110,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara móvil domo AHD de 2MP con audio integrado, apta para instalaciones en interiores y exteriores.",
     "descripcion": "Cámara móvil domo AHD de 2MP con audio integrado para interiores y exteriores. Conector DIN de aviación 4 pines. Compatible con DVRs móviles que soporten 1080p.",
     "imagenes": [
       "/img-catalogo/MC4002HD.webp"
@@ -114,6 +123,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara Contadora de Personas",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara AHD auxiliar para conteo de pasajeros, diseñada para trabajar en conjunto con el contador principal MP3M.",
     "descripcion": "Cámara AHD auxiliar para conteo de pasajeros. Se usa en combinación con el contador MP3M. Transmite imágenes de video al MP3M, cuyo algoritmo de IA determina con precisión la dirección de movimiento de los pasajeros (subida/bajada). Ideal para autobuses de pasajeros.",
     "imagenes": [
       "/img-catalogo/MP3S.webp"
@@ -126,6 +136,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara Contadora de Personas",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara IP contadora de pasajeros con Inteligencia Artificial (algoritmo de aprendizaje profundo) y alta precisión.",
     "descripcion": "Cámara IP contadora de pasajeros con Inteligencia Artificial para vehículos de transporte. Resolución 2MP (1920x1080) a 30fps. Soporta WDR. Opera 24x7. Algoritmo de aprendizaje profundo para conteo preciso de ascenso y descenso. Compatible con series MM1N, MX1N y MX3N.",
     "imagenes": [
       "/img-catalogo/MP3M.webp"
@@ -138,6 +149,7 @@
     "marca": "Streamax",
     "categoria": "Cámara Móvil",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara adhesiva AHD de 1.3MP para interiores, con diseño discreto y fácil instalación en el parabrisas.",
     "descripcion": "Cámara adhesiva AHD de 1.3MP para interiores de vehículos. Lente 2.8mm, protección IP54. Conector DIN 4 pines. Diseño discreto de montaje adhesivo. Alimentación 12 VCD.",
     "imagenes": [
       "/img-catalogo/MCA20S.webp"
@@ -150,6 +162,7 @@
     "marca": "Meriva Technology / Streamax",
     "categoria": "Cámara de IA / ADAS",
     "estado": "Disponible",
+    "descripcion_corta": "Cámara con Inteligencia Artificial para sistemas ADAS (advertencia de colisión frontal y salida de carril).",
     "descripcion": "Cámara de Inteligencia Artificial para sistemas ADAS (Advanced Driver Assistance System). Resolución 1080p, lente 8mm, sensor CMOS 1/2.8\". Funciones de advertencia de colisión frontal (FCW) y advertencia de salida de carril (LDW). Diseño compacto para adherirse al parabrisas. Excelente desempeño en baja iluminación. Compatible con series MM1N y MX1N.",
     "imagenes": [
       "/img-catalogo/MC-ADAS.webp"
@@ -162,6 +175,7 @@
     "marca": "Ruptela",
     "categoria": "GPS para Flotilla",
     "estado": "Disponible",
+    "descripcion_corta": "Rastreador GPS inteligente con lectura CAN para monitoreo avanzado de flotillas ligeras y pesadas.",
     "descripcion": "Rastreador GPS de segmento inteligente para gestión de flotillas. Soporta lectura de datos CAN de vehículos pesados (HCV) y ligeros (LCV), así como OBDII. Carcasa con protección IP54 e IP68. Conectividad BLE y CustomCAN. Ideal para monitoreo avanzado de vehículos con análisis de datos del motor.",
     "imagenes": [
       "/img-catalogo/Smart5.webp"
@@ -174,6 +188,7 @@
     "marca": "Ruptela",
     "categoria": "GPS para Flotilla",
     "estado": "Disponible",
+    "descripcion_corta": "Rastreador GPS compacto para gestión esencial de flotillas (posición, velocidad y rutas) con conectividad BLE 5.0.",
     "descripcion": "Rastreador GPS compacto basado en GNSS para gestión esencial de flotillas. Diseño delgado con carcasa IP54. Conectividad BLE 5.0. Ideal para tareas básicas de monitoreo de posición, velocidad y rutas de vehículos ligeros y pesados.",
     "imagenes": [
       "/img-catalogo/Eco5 Lite.webp"
@@ -186,6 +201,7 @@
     "marca": "Ruptela",
     "categoria": "GPS para Flotilla",
     "estado": "Disponible",
+    "descripcion_corta": "Rastreador GPS avanzado con lectura de datos CAN y conectividad LTE para vehículos pesados y de transporte.",
     "descripcion": "Rastreador GPS avanzado para vehículos pesados (HCV) y ligeros (LCV). Lectura de datos CAN, monitoreo de remolque y refrigerado, solución de tacógrafo remoto. Conectividad LTE CAT1. Compatible con Wialon y otras plataformas de rastreo. Diseñado para flotillas de transporte pesado.",
     "imagenes": [
       "/img-catalogo/HCV5.webp"
@@ -198,6 +214,7 @@
     "marca": "Ruptela",
     "categoria": "GPS para Flotilla",
     "estado": "Disponible",
+    "descripcion_corta": "Rastreador GPS 4G con protección anti-jammer, audio bidireccional y conectividad CAN para vehículos pesados.",
     "descripcion": "Rastreador GPS 4G LTE CAT1 bis para vehículos pesados. Lectura de datos CAN mediante protocolos FMS, J1708 y J1939. Precisión GNSS de hasta 1.5 metros. Protección contra interferencias (Jammer) con activación automática de paro de motor. Audio bidireccional, sensores Bluetooth, RFID. Diseño compacto con nano SIM.",
     "imagenes": [
       "/img-catalogo/Pro5 Lite.webp"
@@ -210,6 +227,7 @@
     "marca": "Ruptela",
     "categoria": "GPS para Flotilla",
     "estado": "Disponible",
+    "descripcion_corta": "Rastreador GPS de segmento Pro con telemetría avanzada para flotillas de largo recorrido y maquinaria especializada.",
     "descripcion": "Rastreador GPS avanzado de segmento Pro para vehículos pesados. Lectura de datos CAN de vehículos HCV, monitoreo de remolque y refrigerado, solución para maquinaria especializada. Ideal para flotillas de largo recorrido que requieren telemetría avanzada.",
     "imagenes": [
       "/img-catalogo/Pro5S.webp"
@@ -222,6 +240,7 @@
     "marca": "WEJOIN",
     "categoria": "Torniquete",
     "estado": "Disponible",
+    "descripcion_corta": "Torniquete de trípode bidireccional de acero inoxidable para control de acceso peatonal en entornos de alta demanda.",
     "descripcion": "Torniquete de trípode bidireccional de medio cuerpo para control de acceso peatonal en entornos de alta demanda. Fabricado en acero inoxidable SUS304. Vida útil de hasta 6 millones de ciclos. Flujo de 25 a 35 personas por minuto. Indicador LED. Protección para exteriores protegidos (semicubiertos). Compatible universalmente con cualquier sistema de control de acceso: RFID, biometría, QR, etc.",
     "imagenes": [
       "/img-catalogo/WEJOIN WJAT215.webp"
@@ -234,6 +253,7 @@
     "marca": "Dahua",
     "categoria": "Torniquete",
     "estado": "Disponible",
+    "descripcion_corta": "Torniquete bidireccional de acero inoxidable, compatible con cualquier sistema de control de acceso mediante contacto seco.",
     "descripcion": "Torniquete bidireccional Dahua de acceso peatonal. Fabricado en acero inoxidable. Activación por contacto seco. Voltaje de alimentación 110-240 VAC. Indicadores de luz y sonido ajustables. Compatible con cualquier sistema de control de acceso. MCBF de 1 millón de ciclos. Uso interior.",
     "imagenes": [
       "/img-catalogo/DAHUA ASI6213SGG100.webp"
@@ -246,6 +266,7 @@
     "marca": "Dahua",
     "categoria": "Control de Acceso",
     "estado": "Disponible",
+    "descripcion_corta": "Control de acceso exterior IP65 con reconocimiento facial avanzado y pantalla táctil de 4.3 pulgadas.",
     "descripcion": "Control de acceso exterior con reconocimiento facial avanzado y pantalla táctil de 4.3\". Soporta hasta 6,000 usuarios (rostros + contraseñas), 10,000 tarjetas ID 125 KHz y 300,000 registros. Cámara de doble lente gran angular 2MP con IR y DWDR. Precisión de reconocimiento facial del 99.9% en 0.2 segundos. Certificación IP65 para exteriores. Soporta QR de visita y timbre. Comunicación TCP/IP.",
     "imagenes": [
       "/img-catalogo/DAHUA ASI6213SGG100.webp"
@@ -258,6 +279,7 @@
     "marca": "Dahua",
     "categoria": "Accesorio / Control de Acceso",
     "estado": "Disponible",
+    "descripcion_corta": "Bracket de aluminio para montaje en pared o poste, compatible con controles de acceso biométricos Dahua.",
     "descripcion": "Bracket de aluminio para montaje en pared o poste, compatible con los controles de acceso Dahua ASI6213J-MW, ASI6214J-MFW, ASI7213Y-V3, ASI7214Y-V3, ASI7213X y ASI7214X. Complemento ideal para instalaciones de torniquetes Dahua.",
     "imagenes": [
       "/img-catalogo/DAHUA ASI6213SGG100.webp"
