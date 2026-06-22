@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiTag, FiCheckCircle, FiX, FiZoomIn, FiArrowRight } from 'react-icons/fi';
+import { FiTag, FiCheckCircle, FiX, FiZoomIn } from 'react-icons/fi';
 
 interface Producto {
   id: number;
