@@ -7,7 +7,7 @@ const datosTarjetas = [
   {
     id: 1,
     titulo: 'Gestión de Flotillas',
-    imagen: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=800&auto=format&fit=crop',
+    imagen: '/img-cards/GESTION_DE_FLOTILLAS.webp',
     detalles: [
       'GPS',
       'Telemetría',
@@ -21,7 +21,7 @@ const datosTarjetas = [
   {
     id: 2,
     titulo: 'Seguridad Operativa',
-    imagen: 'https://images.unsplash.com/photo-1549109926-58f039549485?q=80&w=800&auto=format&fit=crop',
+    imagen: '/img-cards/SEGURIDAD_OPERATIVA.webp',
     detalles: [
       'Cámaras con IA (ADAS)',
       'Sensores',
@@ -33,7 +33,7 @@ const datosTarjetas = [
   {
     id: 3,
     titulo: 'Conectividad y control',
-    imagen: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop',
+    imagen: '/img-cards/CONECTIVIDAD_Y_CONTROL.webp',
     detalles: [
       'Control de acceso',
       'Monitoreo',
@@ -46,7 +46,7 @@ const datosTarjetas = [
   {
     id: 4,
     titulo: 'Movilidad y Recaudo',
-    imagen: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop',
+    imagen: '/img-cards/MOVILIDAD_Y_RECAUDO.webp',
     detalles: [
       'Prepago',
       'Validadores',
