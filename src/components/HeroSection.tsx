@@ -22,7 +22,6 @@ export default function Hero() {
       {/* CAPA 3: Contenido principal */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full px-4 text-center text-white">
         
-        {/* Título actualizado (con uppercase para que sea todo mayúsculas) */}
         <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg max-w-4xl uppercase">
           Tecnología que conecta tu operación
         </h1>
@@ -36,9 +35,9 @@ export default function Hero() {
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-semibold transition-colors duration-300">
             Conoce más
           </button>
-          <button className="bg-transparent border-2 border-white hover:bg-white hover:text-black text-white px-8 py-3 rounded-md font-semibold transition-colors duration-300">
+          <a href="/contacto" className="bg-transparent border-2 border-white hover:bg-white hover:text-black text-white px-8 py-3 rounded-md font-semibold transition-colors duration-300 inline-flex items-center justify-center">
             Contáctanos
-          </button>
+          </a>
         </div>
         
       </div>
