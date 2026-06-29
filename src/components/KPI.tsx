@@ -1,5 +1,7 @@
 import React from 'react';
-import { FiAward, FiUsers, FiBox, FiClock } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+// Importamos FiArrowRight para el nuevo botón
+import { FiAward, FiUsers, FiBox, FiClock, FiArrowRight } from 'react-icons/fi';
 import type { IconType } from 'react-icons';
 
 // 1. SUB-COMPONENTE: La Card individual
@@ -40,7 +42,7 @@ const KPICard: React.FC<KPICardProps> = ({ label, dato, descripcion, Icono, colo
 // 2. COMPONENTE PRINCIPAL
 const SeccionKPIs = () => {
   
-  // 3. DATOS EN FORMATO JSON
+  // 3. DATOS EN FORMATO JSON (Se mantienen igual)
   const kpis = [
     {
       id: 1,
@@ -77,16 +79,16 @@ const SeccionKPIs = () => {
   ];
 
   return (
-    <section className="py-20  font-sans">
+    <section className="py-20 font-sans ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Cabecera de la sección */}
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-base font-bold text-orange-500 uppercase tracking-widest mb-3">
-            Resultados Reales
+        {/* Cabecera de la sección ACTUALIZADA */}
+        <div className="max-w-4xl mx-auto text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 uppercase tracking-tight mb-4">
+            NUESTRA TRAYECTORIA, RESPALDADA POR RESULTADOS.
           </h2>
-          <p className="text-3xl sm:text-4xl font-bold text-slate-800 leading-tight">
-            Nuestra trayectoria en números habla por nuestro compromiso.
+          <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
+            El compromiso, la innovación y la experiencia se reflejan en cada proyecto desarrollado.
           </p>
         </div>
 
@@ -102,6 +104,18 @@ const SeccionKPIs = () => {
               color={kpi.color}
             />
           ))}
+        </div>
+
+        {/* NUEVO BOTÓN A CASOS DE ÉXITO */}
+        <div className="mt-16 flex justify-center">
+          <Link 
+            to="/casosExito"
+            onClick={() => window.scrollTo(0, 0)}
+            className="inline-flex items-center gap-2 px-8 py-4 bg-orange-500 text-white rounded-xl font-bold text-lg hover:bg-orange-600 transition-all shadow-md hover:shadow-lg group hover:-translate-y-1"
+          >
+            <span>Ver Casos de Éxito</span>
+            <FiArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
+          </Link>
         </div>
 
       </div>

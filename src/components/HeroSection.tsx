@@ -1,4 +1,3 @@
-
 import BannerVideo from '../assets/banner-video.mp4';
 
 export default function Hero() {
@@ -6,7 +5,6 @@ export default function Hero() {
     <section className="relative w-full h-screen ">
       
       {/* CAPA 1: Video de Fondo */}
-      {/* autoPlay, loop y muted son obligatorios para que los navegadores permitan que el video arranque solo */}
       <video
         autoPlay
         loop
@@ -19,18 +17,19 @@ export default function Hero() {
       </video>
 
       {/* CAPA 2: Overlay oscuro (Filtro) */}
-      {/* bg-black/60 le da un fondo negro al 60% de opacidad. Puedes subirlo o bajarlo según qué tan claro sea tu video */}
       <div className="absolute inset-0 bg-black/60 z-10"></div>
 
       {/* CAPA 3: Contenido principal */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full px-4 text-center text-white">
         
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg max-w-4xl">
+        {/* Título actualizado (con uppercase para que sea todo mayúsculas) */}
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg max-w-4xl uppercase">
           Tecnología que conecta tu operación
         </h1>
         
+        {/* Subtítulo actualizado según las instrucciones */}
         <p className="text-lg md:text-2xl mb-8 max-w-2xl drop-shadow-md text-gray-200">
-          +20 años de experiencia en transporte y movilidad, optimizando operaciones con soluciones inteligentes.
+          +20 años desarrollando soluciones que fortalecen el control, la seguridad y la eficiencia.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4">

@@ -81,17 +81,17 @@ export default function Navbar() {
         }
     }, [pendingScroll, location.pathname]);
 
-    const scrollToNosotros = () => {
-        if (location.pathname === "/") {
-            const el = document.getElementById("nosotros");
-            if (el) el.scrollIntoView({ behavior: "smooth" });
-            setMobileOpen(false);
-        } else {
-            setPendingScroll(true);
-            navigate("/");
-            setMobileOpen(false);
-        }
-    };
+    // const scrollToNosotros = () => {
+    //     if (location.pathname === "/") {
+    //         const el = document.getElementById("nosotros");
+    //         if (el) el.scrollIntoView({ behavior: "smooth" });
+    //         setMobileOpen(false);
+    //     } else {
+    //         setPendingScroll(true);
+    //         navigate("/");
+    //         setMobileOpen(false);
+    //     }
+    // };
 
     return (
         <nav
@@ -130,11 +130,11 @@ export default function Navbar() {
                             Inicio
                         </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <button onClick={scrollToNosotros} className={getLinkClass(location.pathname === "/" && activeSection === "nosotros")}>
                             Quiénes Somos
                         </button>
-                    </li>
+                    </li> */}
                     <li>
                         <NavLink to="/catalogo" className={({ isActive }) => getLinkClass(isActive)}>
                             Catálogo
@@ -166,11 +166,11 @@ export default function Navbar() {
                                 Inicio
                             </NavLink>
                         </li>
-                         <li>
+                         {/* <li>
                             <button onClick={scrollToNosotros} className={getLinkClass(location.pathname === "/" && activeSection === "nosotros")}>
                                 Quiénes Somos
                             </button>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to="/catalogo" onClick={() => setMobileOpen(false)} className={({ isActive }) => getLinkClass(isActive)}>
                                 Catálogo

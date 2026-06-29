@@ -1,10 +1,9 @@
-import  { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import ProductoCard from '../components/CardCatalogo';
 import { FiGrid } from 'react-icons/fi';
 import datosCatalogoRaw from '../datos/productos-catalogo.json';
 
-
-  interface Producto {
+interface Producto {
   id: number;
   nombre: string;
   modelo: string;
@@ -15,12 +14,10 @@ import datosCatalogoRaw from '../datos/productos-catalogo.json';
   imagenes: string[];
 }
 
-
 const datosCatalogo = datosCatalogoRaw as Producto[];
 
 const Catalogo = () => {
   const [categoriaActiva, setCategoriaActiva] = useState<string>('Todas');
-
 
   // 1. Extraemos las categorías únicas del JSON automáticamente
   const categoriasUnicas = useMemo(() => {
@@ -38,16 +35,16 @@ const Catalogo = () => {
   }, [categoriaActiva]);
 
   return (
-    <div className="min-h-screen  pt-28 pb-20 font-sans">
+    <div className="min-h-screen pt-28 pb-20 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* ENCABEZADO DEL CATÁLOGO */}
+        {/* ENCABEZADO DEL CATÁLOGO ACTUALIZADO */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
-            Nuestro Catálogo de <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Soluciones</span>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight uppercase">
+            Catálogo de <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-400">Hardware</span>
           </h1>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Explora nuestra selección de hardware y tecnología diseñada para optimizar y asegurar tu operación al máximo nivel.
+            Explora nuestra selección de equipos y dispositivos especializados para optimizar la operación de cada proyecto.
           </p>
         </div>
 
@@ -59,7 +56,7 @@ const Catalogo = () => {
               onClick={() => setCategoriaActiva(categoria)}
               className={`px-5 py-2 rounded-full text-sm font-bold transition-all duration-300 ${
                 categoriaActiva === categoria
-                  ? 'bg-primary text-white shadow-md'
+                  ? 'bg-orange-500 text-white shadow-md'
                   : 'bg-white text-slate-600 border border-gray-200 hover:border-orange-300 hover:text-orange-500'
               }`}
             >
