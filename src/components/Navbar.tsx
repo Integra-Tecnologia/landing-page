@@ -1,4 +1,4 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import LogoIntegra from '../assets/PNG INTEGRA_LOGO MULTI.png';
 import LogoBlanco from '../assets/PNG INTEGRA_LOGO BLANCO.png';
@@ -7,7 +7,7 @@ export default function Navbar() {
     const [isTop, setIsTop] = useState(true);
     const [mobileOpen, setMobileOpen] = useState(false);
     const location = useLocation();
-    const navigate = useNavigate();
+   // const navigate = useNavigate();
     const [pendingScroll, setPendingScroll] = useState(false);
     
     // 1. Estado para rastrear en qué sección de la página estamos

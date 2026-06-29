@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Boton from '../components/Boton';
+//import Boton from '../components/Boton';
 import logo from '../assets/PNG INTEGRA_LOGO MULTI.png';
 
 const inputClassName = "bg-gray-100/50 p-4 w-full rounded-md focus:outline-none focus:ring-1 focus:ring-gray-300";
