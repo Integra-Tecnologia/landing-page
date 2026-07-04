@@ -3,7 +3,7 @@ import CardsPrincipales from '../components/CardPrincipales';
 import FotoSlider from '../components/FotoSlider';
 import HeroSection from '../components/HeroSection';
 import SeccionKPIs from '../components/KPI';
-import AboutUs from './AboutUs';
+// import AboutUs from './AboutUs';
 
 export default function Inicio() {
   return (
@@ -13,7 +13,7 @@ export default function Inicio() {
     <CardsPrincipales/>
     <FotoSlider/>
     <SeccionKPIs/>
-    <AboutUs/>
+   {/*  <AboutUs/> */}
     </>
 
   );
